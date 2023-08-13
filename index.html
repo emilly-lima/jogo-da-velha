@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Choose One!</h1>
+    </header>
+
+    <main>
+        <div class="bt">
+        <button class="escolha" id="X" onclick="choiceX()">X</button>
+        <button class="escolha" id="O"onclick="choiceO()">O</button>
+    </div>
+        <table>
+            <tr>
+                <td id="a1"></td>
+                <td class="vertical" id="a2"></td>
+                <td id="a3"></td>
+            </tr>
+            <tr class="horizontal">
+                <td id="b1"></td>
+                <td class="vertical" id="b2"></td>
+                <td id="b3"></td>
+            </tr>
+            <tr>
+                <td id="c1"></td>
+                <td class="vertical" id="c2"></td>
+                <td id="c3"></td>
+            </tr>
+        </table>
+
+    </main>
+
+</body>
+</html>
